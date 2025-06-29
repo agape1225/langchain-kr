@@ -34,6 +34,7 @@ openai = "1.*"
 deepl = "1.*"
 kiwipiepy = "0.*"
 konlpy = "0.*"
+langchain-groq = "0.*"
 
 # 데이터 처리 및 분석 관련 패키지
 pandas = "2.*"
@@ -92,6 +93,9 @@ mypy = "1.*"
 pinecone = "5.*"
 wikipedia = "1.*"
 scikit-learn = "1.*"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
